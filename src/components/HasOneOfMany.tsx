@@ -29,7 +29,7 @@ export default function HasOneOfMany() {
                             borderRadius: '15px',
                         }}
                         codeBlock={true}
-                        language='tsx'
+                        language='php'
                         showLineNumbers={false}
                         theme={atomOneDark}
                         text={`
@@ -55,7 +55,7 @@ export default function HasOneOfMany() {
                             borderRadius: '15px',
                         }}
                         codeBlock={true}
-                        language='tsx'
+                        language='php'
                         showLineNumbers={false}
                         theme={atomOneDark}
                         text={`

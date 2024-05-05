@@ -33,7 +33,7 @@ export default function OneToOne() {
                             borderRadius: '15px',
                         }}
                         codeBlock={true}
-                        language='tsx'
+                        language='php'
                         showLineNumbers={false}
                         theme={atomOneDark}
                         text={`
@@ -77,7 +77,7 @@ export default function OneToOne() {
                             borderRadius: '15px',
                         }}
                         codeBlock={true}
-                        language='tsx'
+                        language='php'
                         showLineNumbers={false}
                         theme={atomOneDark}
                         text={`
@@ -126,7 +126,7 @@ export default function OneToOne() {
                                 borderRadius: '15px',
                             }}
                             codeBlock={true}
-                            language='tsx'
+                            language='php'
                             showLineNumbers={false}
                             theme={atomOneDark}
                             text={`
@@ -163,7 +163,7 @@ export default function OneToOne() {
                                 borderRadius: '15px',
                             }}
                             codeBlock={true}
-                            language='tsx'
+                            language='php'
                             showLineNumbers={false}
                             theme={atomOneDark}
                             text={` 
@@ -200,7 +200,7 @@ export default function OneToOne() {
                             borderRadius: '15px',
                         }}
                         codeBlock={true}
-                        language='tsx'
+                        language='php'
                         showLineNumbers={false}
                         theme={atomOneDark}
                         text={`$owner = Car::findOrFail(1)->owner;`}>
@@ -213,7 +213,7 @@ export default function OneToOne() {
                             borderRadius: '15px',
                         }}
                         codeBlock={true}
-                        language='tsx'
+                        language='php'
                         showLineNumbers={false}
                         theme={atomOneDark}
                         text={`$car = Owner::findOrFail(1)->car;`}>
