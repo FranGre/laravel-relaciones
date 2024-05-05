@@ -39,10 +39,10 @@ export default function OneToMany() {
                         text={`
         <?php
  
-        namespace App\Models;
+        namespace App\\Models;
                          
-        use Illuminate\Database\Eloquent\Model;
-        use Illuminate\Database\Eloquent\Relations\HasMany;
+        use Illuminate\\Database\\Eloquent\\Model;
+        use Illuminate\\Database\\Eloquent\\Relations\\HasMany;
                          
         class Padre extends Model
         {
@@ -71,7 +71,7 @@ export default function OneToMany() {
                             showLineNumbers={false}
                             theme={atomOneDark}
                             text={`
-        use App\Models\Padre;
+        use App\\Models\\Padre;
  
         $hijos = Padre::find(1)→hijos;
                          
@@ -93,7 +93,7 @@ export default function OneToMany() {
                             showLineNumbers={false}
                             theme={atomOneDark}
                             text={`
-        use App\Models\Padre;
+        use App\\Models\\Padre;
 
         $hijoFran = Padre::find(1)->hijos()
                             ->where('name', 'fran')
@@ -119,10 +119,10 @@ export default function OneToMany() {
                             text={`
         <?php
 
-        namespace App\Models;
+        namespace App\\Models;
 
-        use Illuminate\Database\Eloquent\Model;
-        use Illuminate\Database\Eloquent\Relations\BelongsTo;
+        use Illuminate\\Database\\Eloquent\\Model;
+        use Illuminate\\Database\\Eloquent\\Relations\\BelongsTo;
 
         class Hijo extends Model
         {
