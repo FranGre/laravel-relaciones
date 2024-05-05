@@ -1,11 +1,11 @@
 import './App.css'
-import OneToMany from './components/OneToMany'
+import HasOneOfMany from './components/HasOneOfMany'
 
 function App() {
 
   return (
     <>
-      <OneToMany />
+      <HasOneOfMany />
     </>
   )
 }

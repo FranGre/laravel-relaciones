@@ -5,7 +5,6 @@ import H3 from './H3'
 import Article from './Article'
 import P from './P'
 import Highlight from './Highlight'
-import Callout from './Callout'
 
 import padre_hijo from '../assets/padre_hijo.png'
 
