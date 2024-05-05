@@ -6,6 +6,7 @@ import Article from './Article'
 import P from './P'
 import Highlight from './Highlight'
 import Callout from './Callout'
+import owner_car from '../assets/owner_car.png'
 
 export default function OneToOne() {
     return (
@@ -18,6 +19,7 @@ export default function OneToOne() {
                         a un dueño. Sin embargo en este ejemplo, solo vamos a permitir que <strong>un dueño
                             tenga un coche y que un coche solo tenga un dueño.</strong>
                     </P>
+                    <img src={owner_car} alt="imagen Many To Many" className='my-2 rounded-lg border-4 border-solid border-black' />
                     <P>Solo <Highlight backgroundColor='bg-slate-700'>uno de los dos tendrá la clave
                         ajena</Highlight>, ya que en <strong>relaciones 1:1</strong> solo uno tiene la foreign key.
                     </P>
@@ -39,9 +41,9 @@ export default function OneToOne() {
                         text={`
         <?php
 
-        use Illuminate\Database\Migrations\Migration;
-        use Illuminate\Database\Schema\Blueprint;
-        use Illuminate\Support\Facades\Schema;
+        use Illuminate\\Database\\Migrations\\Migration;
+        use Illuminate\\Database\\Schema\\Blueprint;
+        use Illuminate\\Support\\Facades\\Schema;
 
         return new class extends Migration
         {
@@ -83,9 +85,9 @@ export default function OneToOne() {
                         text={`
         <?php
 
-        use Illuminate\Database\Migrations\Migration;
-        use Illuminate\Database\Schema\Blueprint;
-        use Illuminate\Support\Facades\Schema;
+        use Illuminate\\Database\\Migrations\\Migration;
+        use Illuminate\\Database\\Schema\\Blueprint;
+        use Illuminate\\Support\\Facades\\Schema;
 
         return new class extends Migration
         {
@@ -132,11 +134,11 @@ export default function OneToOne() {
                             text={`
         <?php
 
-        namespace App\Models;
+        namespace App\\Models;
 
-        use Illuminate\Database\Eloquent\Factories\HasFactory;
-        use Illuminate\Database\Eloquent\Model;
-        use Illuminate\Database\Eloquent\Relations\BelongsTo;
+        use Illuminate\\Database\\Eloquent\\Factories\\HasFactory;
+        use Illuminate\\Database\\Eloquent\\Model;
+        use Illuminate\\Database\\Eloquent\\Relations\\BelongsTo;
 
         class Owner extends Model
         {
@@ -169,11 +171,11 @@ export default function OneToOne() {
                             text={` 
         <?php
 
-        namespace App\Models;
+        namespace App\\Models;
                         
-        use Illuminate\Database\Eloquent\Factories\HasFactory;
-        use Illuminate\Database\Eloquent\Model;
-        use Illuminate\Database\Eloquent\Relations\HasOne;
+        use Illuminate\\Database\\Eloquent\\Factories\\HasFactory;
+        use Illuminate\\Database\\Eloquent\\Model;
+        use Illuminate\\Database\\Eloquent\\Relations\\HasOne;
                         
         class Car extends Model
         {

@@ -15,7 +15,7 @@ export default function OneToMany() {
             <Article>
                 <div className="pb-12">
                     <P>Pongamos un ejemplo muy sencillo. Padre e Hijo.</P>
-                    <img src={padre_hijo} alt="imagen 1:N" className='rounded my-2' />
+                    <img src={padre_hijo} alt="imagen 1:N" className='my-2 rounded-lg border-4 border-solid border-black' />
                     <P>Un padre tiene como mínimo 1 hijo y como máximo N hijos. Y un hijo tiene como mínimo 1 padre y como máximo 1 padre.</P>
 
                     <P>Como vemos es una relación 1 a muchos.</P>
@@ -152,7 +152,7 @@ export default function OneToMany() {
                                 showLineNumbers={false}
                                 theme={atomOneDark}
                                 text={`
-        use App\Models\Hijo;
+        use App\\Models\\Hijo;
 
         $hijo = Hijo::findOrFail(1);
 

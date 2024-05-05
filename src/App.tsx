@@ -1,11 +1,11 @@
 import './App.css'
-import OneToMany from './components/OneToMany'
+import ManyToMany from './components/ManyToMany'
 
 function App() {
 
   return (
     <>
-      <OneToMany />
+      <ManyToMany />
     </>
   )
 }
