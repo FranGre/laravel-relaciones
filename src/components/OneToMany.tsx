@@ -59,6 +59,7 @@ export default function OneToMany() {
 `} />
                     <div className='py-12'>
                         <H3 text='¿Cómo se usa?' />
+                        <P>Gracias al padre, obtengo sus hijos</P>
                         <CopyBlock
                             customStyle={{
                                 marginTop: '25px',
@@ -137,8 +138,10 @@ export default function OneToMany() {
 
 `}></CopyBlock>
 
-                        <H3 text='¿Cómo se usa?' />
                         <div className='pb-12'>
+                            <H3 text='¿Cómo se usa?' />
+                            <P>Gracias al padre, obtengo sus hijos.</P>
+
                             <CopyBlock
                                 customStyle={{
                                     marginTop: '25px',
