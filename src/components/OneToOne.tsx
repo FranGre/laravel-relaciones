@@ -183,7 +183,7 @@ export default function OneToOne() {
                         
             protected $fillable = ['name'];
                         
-            public function car(): HasOne
+            public function owner(): HasOne
             {
                 return $this->hasOne(Owner::class);
             }
